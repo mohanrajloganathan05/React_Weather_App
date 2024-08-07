@@ -114,7 +114,7 @@ function App() {
       setLatitude(data.coord.lat)
       setLongitude(data.coord.lon)
       const weatherIconCode=data.weather[0].icon
-      setIcon(weatherIcon[weatherIconCode]|| clearIcon)
+      setIcon(weatherIcon[weatherIconCode]||clearIcon)
       setNotFound(false)
 
     }
